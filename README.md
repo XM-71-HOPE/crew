@@ -3,7 +3,11 @@
 ***There will be ai slops, ugly codes and unsafe rust messing around!***
 
 ## Overview
+When you log into a machine sometimes you want your agent to be next to you, or your friends as well.
 
+And of course, terminal mutiplexing is also wonderful.
+
+I hope that whenever i ssh into a machine i will ``` crew ``` right away
 
 ## Milestones
 - [ ] 内置终端、进程守护
