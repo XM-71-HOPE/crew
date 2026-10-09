@@ -1,0 +1,26 @@
+PS1='crew bash:\w\$ '
+HISTFILE="$CREW_RUNTIME/bash-history-$CREW_PANE_ID"
+__crew_inside=0
+__crew_emit() {
+    "$CREW_EXE" shell-event "$CREW_EVENT_SOCKET" "$CREW_PANE_ID" "$CREW_GENERATION" "$2" "$1" "$PWD" "$3" "$4" "$5" "$6"
+}
+__crew_debug() {
+    local status="$1" pid="$2" source="$3" line="$4" command="$5"
+    if [[ "$__crew_inside" == 1 ]]; then return "$status"; fi
+    __crew_inside=1
+    __crew_emit trace "$pid" "$source" "$line" "$command" "$status"
+    __crew_inside=0
+    return "$status"
+}
+__crew_prompt() {
+    local status="$?"
+    __crew_inside=1
+    __crew_emit prompt "$BASHPID" '' 0 '' "$status"
+    __crew_inside=0
+}
+__crew_inside=1
+__crew_emit register "$BASHPID" '' 0 '' 0
+__crew_inside=0
+PROMPT_COMMAND=__crew_prompt
+set -o functrace
+trap '__crew_debug "$?" "$BASHPID" "${BASH_SOURCE[0]}" "$LINENO" "$BASH_COMMAND"' DEBUG
