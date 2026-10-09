@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760"><rect width="100%" height="100%" fill="#10151d"/><style>text{font-family:system-ui,"Noto Sans CJK SC",sans-serif;fill:#e5edf7}.sub{fill:#a5b4c7}</style>
+<text x="40" y="48" font-size="26">01 / 共享结构与 Agent 层级</text>
+<rect x="40" y="90" width="1120" height="85" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="58" y="120" font-size="20" style="fill:#77aaff">Session</text>
+<text x="58" y="149" font-size="16" style="fill:#e5edf7">可信参与者共享内容与布局；各连接独立导航；无人员权限模型</text>
+<rect x="40" y="225" width="710" height="100" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="58" y="255" font-size="20" style="fill:#77aaff">Tab A · 人 + AI</text>
+<text x="58" y="284" font-size="16" style="fill:#e5edf7">Tab agent：页面右侧工具 / 对话区；唯一附属执行 pane</text>
+<rect x="800" y="225" width="360" height="100" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="818" y="255" font-size="20" style="fill:#77aaff">Tab B · 人类协作</text>
+<text x="818" y="284" font-size="16" style="fill:#e5edf7">任何人都可进入、管理、接替</text>
+<path d="M390 175 L390 225" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="390" cy="225" r="4" fill="#a5b4c7"/>
+<path d="M980 175 L980 225" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="980" cy="225" r="4" fill="#a5b4c7"/>
+<rect x="40" y="385" width="320" height="130" rx="8" fill="#19222e" stroke="#efc76a" stroke-width="2"/>
+<text x="58" y="415" font-size="20" style="fill:#efc76a">附属执行 Pane</text>
+<text x="58" y="444" font-size="16" style="fill:#e5edf7">属于 Tab agent 同一上下文</text>
+<text x="58" y="469" font-size="16" style="fill:#e5edf7">有且只有一个</text>
+<text x="58" y="494" font-size="16" style="fill:#e5edf7">不是独立 Pane agent</text>
+<rect x="410" y="385" width="340" height="130" rx="8" fill="#19222e" stroke="#70dfac" stroke-width="2"/>
+<text x="428" y="415" font-size="20" style="fill:#70dfac">工作 Subagent Pane</text>
+<text x="428" y="444" font-size="16" style="fill:#e5edf7">独立 Pane agent</text>
+<text x="428" y="469" font-size="16" style="fill:#e5edf7">有自己的工具区与对话</text>
+<text x="428" y="494" font-size="16" style="fill:#e5edf7">被接管后通知 Tab agent</text>
+<rect x="800" y="385" width="360" height="130" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="818" y="415" font-size="20" style="fill:#77aaff">人类终端 Pane</text>
+<text x="818" y="444" font-size="16" style="fill:#e5edf7">单个人类操作连接</text>
+<text x="818" y="469" font-size="16" style="fill:#e5edf7">多人观察；确认后可接替</text>
+<text x="818" y="494" font-size="16" style="fill:#e5edf7">可交给 AI 执行</text>
+<path d="M240 325 L200 385" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="200" cy="385" r="4" fill="#a5b4c7"/>
+<path d="M565 325 L580 385" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="580" cy="385" r="4" fill="#a5b4c7"/>
+<text x="580.5" y="347.0" font-size="14" style="fill:#a5b4c7">委派</text>
+<rect x="410" y="575" width="340" height="100" rx="8" fill="#19222e" stroke="#a5b4c7" stroke-width="2"/>
+<text x="428" y="605" font-size="20" style="fill:#a5b4c7">只读探测助手</text>
+<text x="428" y="634" font-size="16" style="fill:#e5edf7">无 pane / 无 shell / 不再委派</text>
+<text x="428" y="659" font-size="16" style="fill:#e5edf7">详情从父 agent 工具区进入</text>
+<path d="M580 515 L580 575" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="580" cy="575" r="4" fill="#a5b4c7"/>
+<text x="40" y="725" font-size="17" style="fill:#a5b4c7">颜色表示当前参与状态，不表示拥有者。人员授权、负责人和转移规则已撤掉。</text>
+</svg>

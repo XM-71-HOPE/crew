@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950"><rect width="100%" height="100%" fill="#10151d"/><style>text{font-family:system-ui,"Noto Sans CJK SC",sans-serif;fill:#e5edf7}.sub{fill:#a5b4c7}</style>
+<text x="40" y="48" font-size="26">02 / 导航、输入与接管</text>
+<rect x="40" y="120" width="300" height="135" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="58" y="150" font-size="20" style="fill:#77aaff">Session 导航</text>
+<text x="58" y="179" font-size="16" style="fill:#e5edf7">Vim 键位切换 Tab</text>
+<text x="58" y="204" font-size="16" style="fill:#e5edf7">i → 进入选中 Tab</text>
+<text x="58" y="229" font-size="16" style="fill:#e5edf7">a → Tab agent 对话</text>
+<rect x="450" y="120" width="310" height="135" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="468" y="150" font-size="20" style="fill:#77aaff">Tab 导航</text>
+<text x="468" y="179" font-size="16" style="fill:#e5edf7">Vim 键位选择 Pane = 观察</text>
+<text x="468" y="204" font-size="16" style="fill:#e5edf7">i → 终端输入 / 接管 AI</text>
+<text x="468" y="229" font-size="16" style="fill:#e5edf7">a → Pane agent 对话</text>
+<path d="M340 175 L450 175" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="450" cy="175" r="4" fill="#a5b4c7"/>
+<text x="403.0" y="167.0" font-size="14" style="fill:#a5b4c7">i</text>
+<path d="M450 225 L340 225" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="340" cy="225" r="4" fill="#a5b4c7"/>
+<text x="403.0" y="217.0" font-size="14" style="fill:#a5b4c7">q</text>
+<rect x="40" y="390" width="300" height="130" rx="8" fill="#19222e" stroke="#efc76a" stroke-width="2"/>
+<text x="58" y="420" font-size="20" style="fill:#efc76a">Tab agent 对话</text>
+<text x="58" y="449" font-size="16" style="fill:#e5edf7">Enter 发送 / 组合键换行</text>
+<text x="58" y="474" font-size="16" style="fill:#e5edf7">单个人类操作连接</text>
+<text x="58" y="499" font-size="16" style="fill:#e5edf7">AI 可继续执行</text>
+<rect x="450" y="390" width="310" height="130" rx="8" fill="#19222e" stroke="#70dfac" stroke-width="2"/>
+<text x="468" y="420" font-size="20" style="fill:#70dfac">Pane agent 对话</text>
+<text x="468" y="449" font-size="16" style="fill:#e5edf7">与终端共用人类操作位</text>
+<text x="468" y="474" font-size="16" style="fill:#e5edf7">AI 可继续执行</text>
+<text x="468" y="499" font-size="16" style="fill:#e5edf7">/resume 明确归还 AI</text>
+<rect x="850" y="390" width="310" height="130" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="868" y="420" font-size="20" style="fill:#77aaff">终端输入</text>
+<text x="868" y="449" font-size="16" style="fill:#e5edf7">按键送入终端</text>
+<text x="868" y="474" font-size="16" style="fill:#e5edf7">接管 AI：仅暂停对应 agent</text>
+<text x="868" y="499" font-size="16" style="fill:#e5edf7">运行命令是否中断由人选择</text>
+<path d="M190 255 L190 390" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="190" cy="390" r="4" fill="#a5b4c7"/>
+<text x="198.0" y="314.5" font-size="14" style="fill:#a5b4c7">a</text>
+<path d="M550 255 L550 390" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="550" cy="390" r="4" fill="#a5b4c7"/>
+<text x="558.0" y="314.5" font-size="14" style="fill:#a5b4c7">a</text>
+<path d="M760 210 L1000 390" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="1000" cy="390" r="4" fill="#a5b4c7"/>
+<text x="888.0" y="292.0" font-size="14" style="fill:#a5b4c7">i</text>
+<rect x="40" y="585" width="1120" height="130" rx="8" fill="#19222e" stroke="#a5b4c7" stroke-width="2"/>
+<text x="58" y="615" font-size="20" style="fill:#a5b4c7">一致的退出与占用规则</text>
+<text x="58" y="644" font-size="16" style="fill:#e5edf7">输入模式 → CREW 前缀 + q → 来源导航层（前缀具体按键未定）</text>
+<text x="58" y="669" font-size="16" style="fill:#e5edf7">他人 i / a → 确认接替 → 原操作者回到导航；同一 ID 的不同连接也适用</text>
+<text x="58" y="694" font-size="16" style="fill:#e5edf7">私有回看：不新增占用；保留原操作位。q 返回；/resume 需无人占终端</text>
+<text x="40" y="760" font-size="17" style="fill:#a5b4c7">Shift+A 仅开关共享工具 / 对话区；有人正在操作该区时不能关闭。</text>
+<rect x="40" y="795" width="1120" height="110" rx="8" fill="#19222e" stroke="#a5b4c7"/><text x="58" y="825" font-size="20">补充模式</text><text x="58" y="853" font-size="16">布局编辑：Tab 导航进入，q 返回；不独占，仅在当前 Tab 内调整。</text><text x="58" y="880" font-size="16">私有回看：专用键 / 输入时前缀加专用键；q 返回来源，已有操作位保留。</text></svg>

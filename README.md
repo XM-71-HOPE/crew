@@ -14,7 +14,6 @@ I hope that whenever i ssh into a machine i will ``` crew ``` right away
 - [ ] terminal multiplexing
 - [ ] wemux/多人合作/服务器连接
 - [ ] agent harness
-- [ ] 所有权管理
 
 ## Run
 

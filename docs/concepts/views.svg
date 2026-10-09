@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920"><rect width="100%" height="100%" fill="#10151d"/><style>text{font-family:system-ui,"Noto Sans CJK SC",sans-serif;fill:#e5edf7}.sub{fill:#a5b4c7}</style>
+<text x="40" y="48" font-size="26">04 / 公共工作现场与私有回看</text>
+<rect x="35" y="90" width="880" height="105" rx="8" fill="#19222e" stroke="#70dfac" stroke-width="2"/>
+<text x="53" y="120" font-size="20" style="fill:#70dfac">共享的 Pane</text>
+<text x="53" y="149" font-size="16" style="fill:#e5edf7">主工作区：终端 / 脚本执行 / 文件修改，跟随当前工具自动显示</text>
+<text x="53" y="174" font-size="16" style="fill:#e5edf7">详细展示不依赖右侧 Agent 区域是否打开</text>
+<rect x="955" y="90" width="410" height="105" rx="8" fill="#19222e" stroke="#efc76a" stroke-width="2"/>
+<text x="973" y="120" font-size="20" style="fill:#efc76a">共享的 Agent CLI 区域</text>
+<text x="973" y="149" font-size="16" style="fill:#e5edf7">对话与工具调用记录 + 输入框</text>
+<text x="973" y="174" font-size="16" style="fill:#e5edf7">草稿共享，记录所有编辑参与者</text>
+<rect x="35" y="240" width="620" height="170" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="53" y="270" font-size="20" style="fill:#77aaff">宽屏客户端</text>
+<text x="53" y="299" font-size="16" style="fill:#e5edf7">主工作区                        右侧 Agent 区</text>
+<text x="53" y="324" font-size="16" style="fill:#e5edf7">脚本：完整内容 + 活动命令高亮</text>
+<text x="53" y="349" font-size="16" style="fill:#e5edf7">修改：上下文 + 差异；完成保留结果</text>
+<text x="53" y="374" font-size="16" style="fill:#e5edf7">区域关闭仍能看到主工作区展示</text>
+<rect x="745" y="240" width="620" height="170" rx="8" fill="#19222e" stroke="#77aaff" stroke-width="2"/>
+<text x="763" y="270" font-size="20" style="fill:#77aaff">窄屏客户端</text>
+<text x="763" y="299" font-size="16" style="fill:#e5edf7">Agent 区可以覆盖主工作区显示</text>
+<text x="763" y="324" font-size="16" style="fill:#e5edf7">开关共享；覆盖 / 并排按各自宽度决定</text>
+<text x="763" y="349" font-size="16" style="fill:#e5edf7">a 自动打开并输入；退出后保持打开</text>
+<text x="763" y="374" font-size="16" style="fill:#e5edf7">有人操作 Agent 区时不可关闭</text>
+<path d="M330 195 L330 240" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="330" cy="240" r="4" fill="#a5b4c7"/>
+<path d="M1070 195 L1070 240" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="1070" cy="240" r="4" fill="#a5b4c7"/>
+<rect x="35" y="465" width="620" height="145" rx="8" fill="#19222e" stroke="#a5b4c7" stroke-width="2"/>
+<text x="53" y="495" font-size="20" style="fill:#a5b4c7">连接 A · 私有回看</text>
+<text x="53" y="524" font-size="16" style="fill:#e5edf7">终端历史和 Agent 记录均支持</text>
+<text x="53" y="549" font-size="16" style="fill:#e5edf7">不改变公共视图；不暂停 AI</text>
+<text x="53" y="574" font-size="16" style="fill:#e5edf7">从输入进入：保留占用，q 返回原输入模式</text>
+<rect x="745" y="465" width="620" height="145" rx="8" fill="#19222e" stroke="#70dfac" stroke-width="2"/>
+<text x="763" y="495" font-size="20" style="fill:#70dfac">连接 B · 公共实时画面</text>
+<text x="763" y="524" font-size="16" style="fill:#e5edf7">仍看到当前工具与实时工作</text>
+<text x="763" y="549" font-size="16" style="fill:#e5edf7">可接替公共操作位，不因 A 回看而停住</text>
+<text x="763" y="574" font-size="16" style="fill:#e5edf7">A 若从导航进入回看，不新增操作占用</text>
+<path d="M330 410 L330 465" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="330" cy="465" r="4" fill="#a5b4c7"/>
+<text x="338.0" y="429.5" font-size="14" style="fill:#a5b4c7">进入回看</text>
+<path d="M1070 410 L1070 465" stroke="#a5b4c7" stroke-width="2" fill="none"/>
+<circle cx="1070" cy="465" r="4" fill="#a5b4c7"/>
+<text x="1078.0" y="429.5" font-size="14" style="fill:#a5b4c7">继续公共视图</text>
+<rect x="35" y="660" width="1330" height="160" rx="8" fill="#19222e" stroke="#efc76a" stroke-width="2"/>
+<text x="53" y="690" font-size="20" style="fill:#efc76a">图示边界 / 尚未确定</text>
+<text x="53" y="719" font-size="16" style="fill:#e5edf7">终端输入与对话共用一个人类操作位；人与 AI 可以同时对话和执行，i 才接管终端。</text>
+<text x="53" y="744" font-size="16" style="fill:#e5edf7">Tab agent 恰好一个附属终端；接管后只暂停 Tab agent，已有 subagent 继续。</text>
+<text x="53" y="769" font-size="16" style="fill:#e5edf7">回看期间被接替：不中断回看，提示已移交，q 后回导航；草稿保留。</text>
+<text x="53" y="794" font-size="16" style="fill:#e5edf7">启动服务是任务成果时，不能因关闭 CREW 被杀掉；需要进程脱离 session 能力，细节留白。</text>
+<text x="35" y="875" font-size="17" style="fill:#a5b4c7">本图描述设计规则，不表示最终尺寸、快捷键或已实现功能。</text>
+</svg>

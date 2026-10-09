@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="910" viewBox="0 0 1400 910"><rect width="100%" height="100%" fill="#10151d"/><style>text{font-family:system-ui,"Noto Sans CJK SC",sans-serif;fill:#e5edf7}.sub{fill:#a5b4c7}</style>
+<text x="40" y="48" font-size="26">03 / 同一工作现场：宽屏与窄屏布局对照</text>
+<text x="35" y="94" font-size="21" style="fill:#e5edf7">A / 宽屏：共享排列与比例</text>
+<rect x="35" y="110" width="820" height="570" fill="#10151d" stroke="#607185"/>
+<text x="47" y="137" font-size="15" style="fill:#e5edf7">TAB 1 · 项目    TAB 2 · 排查</text>
+<rect x="47" y="155" width="293" height="230" fill="#141d27" stroke="#efc76a" stroke-width="3"/>
+
+<text x="57" y="180" font-size="15" style="fill:#efc76a">Tab AI 执行</text>
+<text x="59" y="213" font-size="14" style="fill:#e5edf7">执行展示 / 当前工具</text>
+<text x="59" y="240" font-size="14" style="fill:#a5b4c7">▶ cargo test</text>
+<rect x="352" y="155" width="282" height="230" fill="#141d27" stroke="#70dfac" stroke-width="3"/>
+
+<text x="362" y="180" font-size="15" style="fill:#70dfac">Subagent</text>
+<text x="364" y="213" font-size="14" style="fill:#e5edf7">执行展示 / 当前工具</text>
+<text x="364" y="240" font-size="14" style="fill:#a5b4c7">▶ cargo test</text>
+<path d="M521 188 V385" stroke="#526479"/>
+<text x="531" y="212" font-size="14" style="fill:#efc76a">Agent 记录</text>
+<text x="531" y="239" font-size="13" style="fill:#e5edf7">对话 / 调用摘要</text>
+<text x="531" y="337" font-size="14" style="fill:#efc76a">对话 / a</text>
+<text x="531" y="361" font-size="13" style="fill:#a5b4c7">输入…</text>
+<rect x="47" y="395" width="587" height="230" fill="#141d27" stroke="#70dfac" stroke-width="3"/>
+
+<text x="57" y="420" font-size="15" style="fill:#70dfac">人类终端 · xm71</text>
+<text x="59" y="453" font-size="14" style="fill:#e5edf7">执行展示 / 当前工具</text>
+<text x="59" y="480" font-size="14" style="fill:#a5b4c7">▶ cargo test</text>
+<rect x="642" y="155" width="201" height="470" rx="8" fill="#19222e" stroke="#efc76a" stroke-width="2"/>
+<text x="660" y="185" font-size="20" style="fill:#efc76a">Tab agent</text>
+<text x="660" y="214" font-size="16" style="fill:#e5edf7">工具调用</text>
+<text x="660" y="239" font-size="16" style="fill:#e5edf7">创建 Subagent</text>
+<text x="660" y="264" font-size="16" style="fill:#e5edf7">执行记录…</text>
+<text x="656" y="580" font-size="15" style="fill:#efc76a">对话框 / a</text>
+<text x="47" y="662" font-size="14" style="fill:#a5b4c7">TAB 导航 · 观察 Subagent · 待处理 1</text>
+<text x="900" y="94" font-size="21" style="fill:#e5edf7">B / 窄屏：工具区覆盖显示</text>
+<rect x="900" y="110" width="465" height="570" fill="#10151d" stroke="#607185"/>
+<text x="912" y="137" font-size="15" style="fill:#e5edf7">TAB 1 · 项目    TAB 2 · 排查</text>
+<rect x="912" y="155" width="157" height="230" fill="#141d27" stroke="#efc76a" stroke-width="3"/>
+
+<text x="922" y="180" font-size="15" style="fill:#efc76a">Tab AI 执行</text>
+<text x="924" y="213" font-size="14" style="fill:#e5edf7">执行展示 / 当前工具</text>
+<text x="924" y="240" font-size="14" style="fill:#a5b4c7">▶ cargo test</text>
+<rect x="1081" y="155" width="152" height="230" fill="#141d27" stroke="#70dfac" stroke-width="3"/>
+
+<text x="1091" y="180" font-size="15" style="fill:#70dfac">Subagent</text>
+<text x="1093" y="213" font-size="14" style="fill:#e5edf7">执行展示 / 当前工具</text>
+<text x="1093" y="240" font-size="14" style="fill:#a5b4c7">▶ cargo test</text>
+<rect x="1084" y="188" width="146" height="194" fill="#19222e"/>
+<path d="M1081 188 V385" stroke="#526479"/>
+<text x="1091" y="212" font-size="14" style="fill:#efc76a">Agent 记录</text>
+<text x="1091" y="239" font-size="13" style="fill:#e5edf7">对话 / 调用摘要</text>
+<text x="1091" y="337" font-size="14" style="fill:#efc76a">对话 / a</text>
+<text x="1091" y="361" font-size="13" style="fill:#a5b4c7">输入…</text>
+<rect x="912" y="395" width="321" height="230" fill="#141d27" stroke="#70dfac" stroke-width="3"/>
+
+<text x="922" y="420" font-size="15" style="fill:#70dfac">人类终端 · xm71</text>
+<text x="924" y="453" font-size="14" style="fill:#e5edf7">执行展示 / 当前工具</text>
+<text x="924" y="480" font-size="14" style="fill:#a5b4c7">▶ cargo test</text>
+<rect x="1241" y="155" width="112" height="470" rx="8" fill="#19222e" stroke="#efc76a" stroke-width="2"/>
+<text x="1259" y="185" font-size="20" style="fill:#efc76a">Tab agent</text>
+<text x="1259" y="214" font-size="16" style="fill:#e5edf7">工具调用</text>
+<text x="1259" y="239" font-size="16" style="fill:#e5edf7">创建 Subagent</text>
+<text x="1259" y="264" font-size="16" style="fill:#e5edf7">执行记录…</text>
+<text x="1255" y="580" font-size="15" style="fill:#efc76a">对话框 / a</text>
+<text x="912" y="662" font-size="14" style="fill:#a5b4c7">TAB 导航 · 观察 Subagent · 待处理 1</text>
+<rect x="35" y="725" width="1330" height="125" rx="8" fill="#19222e" stroke="#a5b4c7" stroke-width="2"/>
+<text x="53" y="755" font-size="20" style="fill:#a5b4c7">比对重点（示意，不是最终样式）</text>
+<text x="53" y="784" font-size="16" style="fill:#e5edf7">边框只表示操作者，无人操作时白色；观察者简称在右上角，溢出用 +N。</text>
+<text x="53" y="809" font-size="16" style="fill:#e5edf7">脚本 / 文件详情在主工作区，Agent 区关闭仍显示；终端与 Agent 记录均可私有回看。</text>
+<text x="53" y="834" font-size="16" style="fill:#e5edf7">工具区开关共享；并排还是覆盖由客户端宽度决定。图中覆盖比例仅作示意。</text>
+<text x="429" y="180" font-size="14" style="fill:#77aaff">ln</text><text x="807" y="180" font-size="14" style="fill:#77aaff">ln</text><text x="1296" y="180" font-size="14" style="fill:#77aaff">ln +2</text></svg>
